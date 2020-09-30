@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+    background: #ddd;
+}
+
+.white-house {
+    border-radius: 20px;
+    width: 475px;
+    height: auto;
+    margin: auto;
+    margin-top: 200px;
+    background: #fff;
+    margin-bottom: 200px;
+    box-shadow: 10px 10px 50px gray;
+    overflow: hidden;
+}
+
+.house-img {
+    position: relative;
+}
+
+.house-img img {
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.heart-icon {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.textothers {
+    padding: 14px;
+    overflow: hidden;
+}
+
+.textinfo {
+    width: calc(100% + 14px);
+    margin-left: -14px;
+    border-bottom: 2px solid rgba(228, 217, 217, 0.746);
+    padding: 0 10px;
+}
+
+.textinfo small {
+    color: #979191;
+}
+
+.textinfo p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.room-details {
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.room-details .wohnzimmer {
+    color: #605858;
+    float: left;
+}
+
+.room-details .wohnzimmer i {
+    margin-right: 10px;
+}
+
+.room-details .wohnzimmer .bold {
+    color: #000;
+}
+
+.room-details h3 {
+    font-size: 14px;
+    margin-right: 80px;
+}
+
+.room-details .badezimmer {
+    color: #605858;
+    float: left;
+    margin-left: 40px;
+}
+
+.room-details .badezimmer i {
+    margin-right: 10px;
+}
+
+.room-details .badezimmer .bold {
+    color: #000;
+}
+
+.lorem {
+    width: calc(100% + 14px);
+    margin-left: -14px;
+    margin-top: 15px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: #ddd;
+    padding: 7px;
+}
+
+.lorem p {
+    font-size: 13x;
+    padding: 15px 5px;
+}
+
+.lorem li {
+    list-style: disc;
+    margin-left: 30px;
+}
+
+.lorem .rainer-profile {
+    overflow: hidden;
+}
+
+.profile {
+    width: 65px;
+    height: 75px;
+    overflow: hidden;
+    float: left;
+    margin-right: 14px;
+}
+
+.profile img {
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.rainer {
+    margin-top: 10px;
+}
